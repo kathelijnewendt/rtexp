@@ -17,5 +17,6 @@ The program automatically adds indices to the stimuli and words, and includes th
 
 Using the provided sample file `example_stimuli.csv`, you can execute the following line to run a reading times experiment with basic random shuffling of the stimuli:
 ```bash
-rtexp example_stimuli.csv readingtimes.csv -r1
+rtexp example_stimuli.csv example_readingtimes.csv -r1
 ```
+With `rtviz`, you can visualize the obtained reading times saved in `example_readingtimes.csv`.
