@@ -23,4 +23,4 @@ Using the provided sample file `example_stimuli.csv`, you can execute the follow
 ```bash
 $ rtexp example_stimuli.csv example_readingtimes.csv -r1
 ```
-With `rtviz`, you can visualize the obtained reading times saved in `example_readingtimes.csv`.
+With [`rtviz`](https://github.com/kathelijnewendt/rtviz), you can visualize the obtained reading times saved in `example_readingtimes.csv`.
