@@ -4,7 +4,7 @@
 
 A `.csv` file containing stimuli assigned to conditions (one per line) has to be provided as input file. The program also accepts `.txt` files containing only the stimuli, but in this case conditions are created automatically based on the position of the stimulus in the file.
 
-A word may be marked with one or more asterisks `*` as being a *word of interest*, like this: `*interesting`. Note that an asterisk used in this way may not serve any other purposes in a stimulus and that maximally one word per stimulus may be prefaced with an asterisk to avoid problems in the later visualization with `rtviz`.
+A word may be marked with one or more asterisks `*` as being a *word of interest*, like this: `*interesting`. Note that an asterisk used in this way may not serve any other purposes in a stimulus and that maximally one word per stimulus may be prefaced with an asterisk to avoid problems in the later visualization with [`rtviz`](https://github.com/kathelijnewendt/rtviz).
 
 The words to be read are displayed in the center of the terminal, without the asterisks indicating *words of interest* being shown.
 
