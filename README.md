@@ -1,2 +1,4 @@
 # rtexp
-Command-line tool for conducting self-paced reading experiments
+
+**rtexp** is a program for conducting self-paced reading time experiments in the command-line.
+
