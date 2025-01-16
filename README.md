@@ -13,6 +13,10 @@ The program automatically adds indices to the stimuli and words, and includes th
 
 ### Install
 
+```bash
+$ pipx install git+https://github.com/kathelijnewendt/rtexp
+```
+
 ### Use
 
 Using the provided sample file `example_stimuli.csv`, you can execute the following line to run a reading times experiment with basic random shuffling of the stimuli:
