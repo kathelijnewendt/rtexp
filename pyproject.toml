@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rtexp"
+version = "0.1"
+authors = [{name="Kathelijne Wendt"}]
+description = "Command-line tool for conducting self-paced reading epxeriments."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["rich"]
+
+[project.scripts]
+rtexp = "rtexp:main"
